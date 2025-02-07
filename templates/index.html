@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Enigma Decoder</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="terminal">
+    <pre id="terminal-output">{{ output }}</pre>
+  </div>
+  <input type="text" id="command-input" placeholder="Escribe tu comando aquí..." autofocus autocomplete="off">
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

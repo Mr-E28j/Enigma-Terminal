@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: #00FF00;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+#terminal {
+  width: 80%;
+  margin: 20px auto;
+  background-color: black;
+  border: 1px solid #00FF00;
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+#command-input {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  background-color: black;
+  color: #00FF00;
+  border: 1px solid #00FF00;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+}
